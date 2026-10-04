@@ -15,7 +15,7 @@ export class Player {
         this.speed = 180;
 
         this.image = new Image();
-        this.image.src = "../../assets/character/clebinho.png";
+        this.image.src = "assets/character/clebinho.png";
         this.animation = new Animation(
             this.image,
             4,
