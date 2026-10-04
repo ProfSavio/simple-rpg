@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #1d1d1d;
+
+    /* Área do jogo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    display: block;
+    width: 1000px;
+    height: 700px;
+
+    background: #000;
+
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    
+    border: 2px solid #444;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+}
